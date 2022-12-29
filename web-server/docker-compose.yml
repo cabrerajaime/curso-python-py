@@ -4,6 +4,8 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - .:/app
+      - .:/charts
+    ports:
+     - '80:80'
 
 
