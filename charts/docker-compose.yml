@@ -1,0 +1,9 @@
+services:
+  charts:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/charts
+
+
